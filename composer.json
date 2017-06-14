@@ -1,0 +1,21 @@
+{
+  "name": "takeoo/redis-command-worker",
+  "description": "Redis Command worker",
+  "minimum-stability": "dev",
+  "license": "Apache-2.0",
+  "type": "project",
+  "require": {
+    "predis/predis": "1.1.1"
+  },
+  "authors": [
+    {
+      "name": "Jan Mrhar",
+      "email": "jan.jn3@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Takeoo\\RedisWorker\\": "src/"
+    }
+  }
+}
